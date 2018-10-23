@@ -83,6 +83,8 @@ int main()
     std::cout << s2_sliced.average() << std::endl;
     std::cout << s3.average() << std::endl;
 
+    // Slicno se moze (sto je i preporuceno) postici
+    // koriscenjem shared_ptr klase.
     student* ms = new master_student("Pera Peric", "Funcionalno programiranje u jeziku Fotrtan", "Ne Hvala");
     std::cout << ms->name() << std::endl;
     delete ms;
